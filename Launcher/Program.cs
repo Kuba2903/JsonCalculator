@@ -7,7 +7,7 @@ namespace Launcher
         static void Main(string[] args)
         {
             List<double> values = new List<double>(); //stores the objects mathematical results
-            string json = File.ReadAllText("C:\\Users\\bigie\\source\\repos\\JsonCalculator\\Launcher\\input.json");
+            string json = File.ReadAllText("input.json");
 
             var data = JsonConvert.DeserializeObject<Dictionary<string,Data>>(json); //deserializes file into dictionary object
 
@@ -54,9 +54,9 @@ namespace Launcher
                 resultList += $"{pair.ObjName}: {pair.Value}\n";
             }
 
-            string resultFilePath = "C:\\Users\\bigie\\source\\repos\\JsonCalculator\\Launcher\\output.txt"; //path for output
-            //File.WriteAllText(resultFilePath, resultList); Overrides the file
-            File.AppendAllText(resultFilePath, resultList);  //Append result to the file
+            string resultFilePath = "output.txt"; //path for output
+            File.WriteAllText(resultFilePath, resultList); //Overrides the file
+            //File.AppendAllText(resultFilePath, resultList);  //Append result to the file
 
             Console.WriteLine("Result successfully saved. \n");
 
