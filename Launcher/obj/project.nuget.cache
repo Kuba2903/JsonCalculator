@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "/ur5HW8QMgzFeAqwO7VJ7vN5wEf5VVVBfQUlNRFT1SXI+h3hT7EHqH8hKXdkGdaEEEOiPUpOxFIUE165JvnOfw==",
+  "dgSpecHash": "v8ndJUHBHg235rxBq9uSAUzxWCNWeggcg3OgMoi6GVqgfsotPaclx3Tf7j0q2nU9ifwhVTJuMd60v13dxf43qg==",
   "success": true,
   "projectFilePath": "C:\\Users\\bigie\\source\\repos\\JsonCalculator\\Launcher\\Launcher.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\bigie\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
