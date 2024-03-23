@@ -1,2 +1,15 @@
-obj2: 4
-obj1: 5
+obj4: NaN
+obj3: -30
+obj1: -1
+obj2: 3,873
+obj5: 800
+obj4: NaN
+obj3: -30
+obj1: -1
+obj2: 3,873
+obj5: 800
+obj4: NaN
+obj3: -30
+obj1: -1
+obj2: 3,873
+obj5: 800
