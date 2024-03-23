@@ -8,6 +8,7 @@ namespace Launcher
 {
     public class Data
     {
+        public string ObjName { get; set; }
         public string Operator { get; set; }
         public double Value1 { get; set; }
         public double Value2 { get; set; }
