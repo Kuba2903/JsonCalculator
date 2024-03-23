@@ -13,3 +13,13 @@ obj3: -30
 obj1: -1
 obj2: 3,873
 obj5: 800
+obj4: NaN
+obj3: -30
+obj1: 0
+obj2: 3,873
+obj5: 800
+obj4: NaN
+obj3: -30
+obj1: -1
+obj2: 3,873
+obj5: 800

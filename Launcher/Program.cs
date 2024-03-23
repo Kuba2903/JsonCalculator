@@ -17,7 +17,7 @@ namespace Launcher
             foreach (var x in data)
             {
                 x.Value.ObjName = $"obj{counter}";
-                switch (x.Value.Operator) {
+                switch (x.Value.Operator.ToLower()) {
                     
                     case "add":
                         result = x.Value.Value1 + x.Value.Value2;
